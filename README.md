@@ -5,6 +5,7 @@ This QT project shows how a basic ground control station can be setup for the ha
 1. PX4 is running on the same machine in SITL mode with a quadrotor vehicle.
 2. The quadrotor is being controlled using a PS4 controller which can be connected through bluetooth or USB to the machine.
 3. The PS4 controller's L2 is thrust, left joystick up/down is pitch and left/right is roll, and right joystick left/right is yaw.
+4. MavLINK library is located in /home directory. Take a look at myGroundControl.pro file for the complete path.
 
 ### Files
 controller.h and controller.cpp : Implements a PS4 controller class to recieve manual position command.
